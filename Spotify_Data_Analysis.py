@@ -6,12 +6,15 @@ import seaborn as sns
  
 Tracks Dataset Analysis
 Dataset Cleaning and formating -
+
 # Importing dataset from csv to a dataframe
 tracks = pd.read_csv('tracks.csv')
+
 # Getting dataset info
 tracks.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 586672 entries, 0 to 586671
+
 Data columns (total 20 columns):
  #   Column            Non-Null Count   Dtype  
 ---  ------            --------------   -----  
@@ -37,6 +40,7 @@ Data columns (total 20 columns):
  19  time_signature    586672 non-null  int64  
 dtypes: float64(9), int64(7), object(4)
 memory usage: 89.5+ MB
+
 # Checking null values in each column
 tracks.isnull().sum()
 id                   0
@@ -60,6 +64,7 @@ valence              0
 tempo                0
 time_signature       0
 dtype: int64
+
 #Droping null values
 tracks.dropna(inplace = True)
 
@@ -86,6 +91,7 @@ valence             0
 tempo               0
 time_signature      0
 dtype: int64
+
 # Creating a duration column to show duration in seconds using apply method and lambda function
 tracks['duration'] = tracks['duration_ms'].apply(lambda x : round(x/1000))
 
@@ -102,6 +108,7 @@ tracks['duration'].head(10)
 8    310
 9    181
 Name: duration, dtype: int64
+
 # Droping unnecessary columns 
 tracks.drop(['id','id_artists','key','mode', 'time_signature','duration_ms'], axis = 1, inplace =True)
 
@@ -117,6 +124,7 @@ name	popularity	explicit	artists	year	danceability	energy	loudness	speechiness	a
 Dataset Analysis -
  
 Finding out Top 10 Most Popular songs
+ 
 # Using sort values and head method using populrity as the base to extract top 10 popular songs
 tracks[['name','artists', 'popularity']].sort_values('popularity', ascending = False).head(10).reset_index(drop = True)
 name	artists	popularity
@@ -132,6 +140,7 @@ name	artists	popularity
 9	Bandido	['Myke Towers', 'Juhn']	94
  
 Top 20 Least popular songs with a popularity above 90
+ 
 # Using query fucntion to filter tracks according to popularity and sorting values accordingly
 tracks[['name','artists', 'popularity']].query('popularity>90').sort_values('popularity', ascending = True).head(20).reset_index(drop = True)
 name	artists	popularity
