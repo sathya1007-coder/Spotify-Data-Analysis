@@ -1,4 +1,4 @@
-#**Spotify Data Analysis Project**
+# **Spotify Data Analysis Project**
 
 ![image](https://github.com/user-attachments/assets/f292ecaf-8203-475d-ae50-4feb79980323)
 
