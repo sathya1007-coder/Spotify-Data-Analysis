@@ -1,4 +1,4 @@
-# **Spotify Data Analysis Project**
+# **Spotify Data Analysis**
 
 ![image](https://github.com/user-attachments/assets/040fe84d-08de-4207-9868-52d5cd7278da)
 
@@ -19,7 +19,7 @@ The project focuses on unraveling trends in music consumption and the factors sh
 
 •	Programming Language: Python
 
-Libraries Used:
+**Libraries Used:**
 
 •	Pandas
 
@@ -39,6 +39,10 @@ Libraries Used:
 
 •	Investigate trends in music production and track length over the years.
 
+
+## **Power BI Visualization**
+
+Utilized Power BI to create interactive dashboards analyzing Spotify music trends from 1998 to 2020. These visualizations uncover insights into artist performance, genre evolution, and key song metrics, highlighting shifts in music popularity and trends over time.
 
 
 ![image](https://github.com/user-attachments/assets/c5239d58-0596-4f38-a78f-fc657ef8fba7)
