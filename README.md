@@ -1,6 +1,7 @@
 # **Spotify Data Analysis Project**
 
-![image](https://github.com/user-attachments/assets/f292ecaf-8203-475d-ae50-4feb79980323)
+![image](https://github.com/user-attachments/assets/040fe84d-08de-4207-9868-52d5cd7278da)
+
 
 
 ## **Project Overview**
