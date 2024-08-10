@@ -39,3 +39,15 @@ Libraries Used:
 
 •	Investigate trends in music production and track length over the years.
 
+
+
+![image](https://github.com/user-attachments/assets/c5239d58-0596-4f38-a78f-fc657ef8fba7)
+
+
+![image](https://github.com/user-attachments/assets/72211674-b386-4198-9a35-ce7992dc50c8)
+
+
+![image](https://github.com/user-attachments/assets/bba5b816-2f63-4679-826a-1e73b63a4dc0)
+
+
+![image](https://github.com/user-attachments/assets/3714f881-629b-4cfe-8501-de97263d9b22)
